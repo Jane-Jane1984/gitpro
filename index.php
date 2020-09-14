@@ -3,6 +3,10 @@
 
 $title = "New project php";
 
+$name = "Евгения";
+
+$birth = "26 февраля";
+
 
 
 ?>
@@ -16,5 +20,7 @@ $title = "New project php";
 </head>
 <body>
     <h1>Title</h1>
+    <p>Привет! Меня зовут <?=$name;?>.</p>
+    <p>Mой день рождения <?=$birth;?>.</p>
 </body>
 </html>
